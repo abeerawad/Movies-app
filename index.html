@@ -1,0 +1,96 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+</head>
+<body>
+   <section>
+      
+      <div class="container  mt-5">
+         <div class="form-group text-center my-5">
+         <input id="search"class="form-control m-auto "type="text"placeholder="Search...">
+      </div>
+         <div class="row text-white" id="rowData">
+      </div>
+   </section>
+   <section id="home">
+      <div id="navBar" class=" d-flex align-items-center">
+         <div class="navContainer p-2 float-left">
+            <ul class="list-unstyled m-5 py-2">
+               <li><a id="alink" class="now_playing" href="#">Now playing</a></li>
+               <li><a id="alink" class="popular" href="#">Popular</a></li>
+               <li><a id="alink" class="top_rated" href="#">Top Rated</a></li>
+               <li><a id="alink" class="popular" href="#">Trending</a></li>
+               <li><a id="alink" class="upcoming" href="#">Upcoming</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="social">
+               <i class="fab fa-facebook-f"></i>
+               <i class="fab fa-twitter"></i>
+               <i class="fab fa-dribbble"></i>
+               <p>Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+         </div>
+         <div class="open text-white d-flex  justify-content-between flex-column align-content-center text-center">
+            <div class="logo">
+               <img src="images/logo.png" class="img-fluid w-50">
+            </div>
+            <div class="tab-bar">
+               <div class="tabs"></div>
+            </div>
+            <div class="social-icon">
+               <i class="fas fa-globe d-block"></i>
+               <i class="fas fa-share-alt py-2"></i>
+            </div>
+         </div>
+      </div>
+   </section> 
+   <section id="contact">
+      <div class="container">
+         <h2>ContacUs...</h2>
+         <form>
+            <div class="row">
+               <div class="col-6 name">
+                  <div class="form-group">
+                     <input id="userName"class="form-control"type="text"placeholder="Enter Name">
+                  </div>
+               </div>
+               <div class="col-6 email">
+                  <div class="form-group">
+                     <input id="userEmail"class="form-control"type="text"placeholder="Enter Email">
+                  </div>
+               </div>
+               <div class="col-6 phone">
+                  <div class="form-group">
+                     <input id="userPhone"class="form-control"type="number"placeholder="Enter Phone">
+                  </div>
+               </div>
+               <div class="col-6 age">
+                  <div class="form-group">
+                     <input id="userAge"class="form-control"type="number"placeholder="Enter Age">
+                  </div>
+               </div>
+               <div class="col-6 password">
+                  <div class="form-group">
+                     <input id="userPassword"class="form-control"type="text" name="fname"placeholder="Enter Password">
+                  </div>
+               </div>
+               <div class="col-6 repassword">
+                  <div class="form-group">
+                     <input id="userRePassword"class="form-control"type="text"placeholder="Enter RePassword">
+                  </div>
+               </div>
+            </div>
+         </form>
+         <button id="myBtn">Submit</button>
+      </div>
+   </section>
+
+
+   <script src="js/jquery-3.4.1.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/mine.js"></script>
+</body>
+</html>
